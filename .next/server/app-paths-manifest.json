@@ -1,0 +1,7 @@
+{
+  "/api/graphql/route": "app/api/graphql/route.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(dashboard)/students/page": "app/(dashboard)/students/page.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/(auth)/register/page": "app/(auth)/register/page.js"
+}

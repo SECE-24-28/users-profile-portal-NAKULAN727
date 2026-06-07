@@ -1,0 +1,55 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Student Management System with Next.js, GraphQL, Prisma, PostgreSQL",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "prisma:seed": "npx ts-node --project tsconfig.seed.json prisma/seed.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@as-integrations/next": "^4.1.0",
+    "@graphql-tools/schema": "^10.0.6",
+    "@hookform/resolvers": "^3.9.1",
+    "@prisma/client": "^6.1.0",
+    "bcryptjs": "^2.4.3",
+    "express-rate-limit": "^7.4.1",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "graphql-upload-minimal": "^1.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "next": "14.2.18",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.54.0",
+    "react-hot-toast": "^2.4.1",
+    "zod": "^3.23.8"
+  },
+  "prisma": {
+    "seed": "npx ts-node --project tsconfig.seed.json prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@apollo/client": "^3.14.1",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.18",
+    "postcss": "^8",
+    "prisma": "^6.1.0",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}
